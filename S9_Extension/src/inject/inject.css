@@ -1,0 +1,62 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
+p {
+  margin: 0;
+}
+
+.popup-196 {
+  width: 500px !important;
+  height: 425px !important;
+
+  border-radius: 5px;
+  background-color: rgba(252,252,253,0.85) !important;
+  padding: 20px !important;
+  z-index: 999;
+  box-shadow: 1px 1px 10px #888888;
+
+  position: absolute !important;
+  visibility: hidden;
+}
+.displayText {
+	font-size: 16px;
+	color: #2657C1;
+  color: black;
+	text-align: center;
+  font-family: 'Open Sans', Impact, Times;
+}
+.emphasis{
+  color: black;
+}
+.low{
+  color: green;
+}
+.medium{
+  color: yellow;
+}
+.high{
+  color: red;
+}
+.blockContainer{
+    text-align: center;
+}
+.subBlock{
+    display: inline;
+}
+
+#window{
+  width: 100%;
+  height: 200px;  
+  border: 3px solid #E8E2E2;
+  margin: 10px;
+}
+
+#xbutton{
+  width: 22px;
+  height: 22px;
+  position: relative;
+  left: 400px;
+  cursor: pointer;
+}
